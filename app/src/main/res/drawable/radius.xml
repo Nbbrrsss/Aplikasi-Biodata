@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+
+    android:shape="reqtangle"
+
+    <solid android:color="@color/Plt2"/>
+
+    <corners android:bottomLeftRadius="95dp"
+             android:bottomRightRadius="95dp"
+        />
+
+
+</shape>

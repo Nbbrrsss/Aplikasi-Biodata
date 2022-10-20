@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Plt1"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="333dp"
+        android:layout_height="384dp"
+        android:background="@drawable/radius2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="319dp"
+        android:layout_height="377dp"
+        android:layout_marginBottom="368dp"
+        android:background="@drawable/radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/nibras2"
+        app:layout_constraintBottom_toBottomOf="@+id/view6"
+        app:layout_constraintEnd_toEndOf="@+id/view6"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/view6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dcfont"
+        android:text="Nibras Bahy Ardyansyah"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view6"
+        app:layout_constraintEnd_toEndOf="@+id/view6"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/view6"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dcfont"
+        android:text="A11.2021.13515"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view6"
+        app:layout_constraintEnd_toEndOf="@+id/view6"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/view6"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dcfont"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/circleImageView"
+        app:layout_constraintEnd_toEndOf="@+id/view6"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/view6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="329dp"
+        android:layout_height="352dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/radius2"
+        android:rotationX="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="308dp"
+        android:layout_height="343dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/radius"
+        android:rotationX="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/nav"
+        android:layout_width="308dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="336dp"
+        android:orientation="horizontal"
+
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/Telepon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/dcfont"
+            android:background="@color/Plt1"
+            android:text="Telepon"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/Alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/dcfont"
+            android:background="@color/Plt1"
+            android:text="Alamat"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/dcfont"
+            android:background="@color/Plt1"
+            android:text="Email"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dcfont"
+        android:text="Deskripsi Diri"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view5"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/IsiDeskripsi"
+        android:layout_width="290dp"
+        android:layout_height="85dp"
+        android:fontFamily="@font/dcfont"
+        android:text="Saya berasal dari Pekalongan, saya memiliki antusian yang tinggi, semangat, dan disiplin. Tertarik dengan bidang yang berhubungan dengan teknologi."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/Deskripsi"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <TextView
+        android:id="@+id/HobiJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dcfont"
+        android:text="Hobi :"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/IsiDeskripsi"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+        android:id="@+id/tekshobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dcfont"
+        android:text="Menonton film dan membaca komik"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/HobiJudul"
+        app:layout_constraintVertical_bias="0.099" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
